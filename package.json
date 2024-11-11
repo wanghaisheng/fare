@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@fontsource/iosevka": "^4.5.4",
-    "@headlessui/vue": "^2.0.0",
+    "@headlessui/vue": "latest",
     "@next-auth/prisma-adapter": "^1.0.5",
     "@prisma/client": "^4.11.0",
     "@vee-validate/zod": "^4.7.4",
