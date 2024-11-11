@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
+    'nitro-cloudflare-dev',
     '@unocss/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
