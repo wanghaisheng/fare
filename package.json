@@ -34,7 +34,7 @@
     "@nuxtjs/color-mode": "^3.2.0",
     "@pinia/nuxt": "^0.4.7",
     "@sidebase/nuxt-auth": "0.4.3",
-    "@tanstack/vue-query": "^5.60.1",
+    "@tanstack/vue-query": "^5.60.0",
     "@types/chart.js": "^2.9.37",
     "@unocss/nuxt": "^0.50.4",
     "@vueuse/nuxt": "^10.9.0",
