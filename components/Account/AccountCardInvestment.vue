@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import type { InvestmentEntry } from '@prisma/client'
-import { isNumber } from '@vueuse/core'
 import { isBefore, isThisYear } from 'date-fns'
 import type Input from '~~/components/F/Input.vue'
 import type { InvestmentAccountWithAccount } from '~~/models/resources'
 import { formatDate, formatPercentage } from '~~/utils'
+const isNumber = (value: any): boolean => !isNaN(value) && typeof value === 'number';
 
 type Props = {
   investmentAccount: InvestmentAccountWithAccount
