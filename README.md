@@ -2,7 +2,7 @@
 
 
 
- 
+   
 > Application for tracking personal finances and attaining financial independence
 
 ## ✨ Features
