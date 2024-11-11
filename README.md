@@ -1,5 +1,7 @@
 # 🫰🏻 FARE 2024-11-11
 
+
+
  
 > Application for tracking personal finances and attaining financial independence
 
