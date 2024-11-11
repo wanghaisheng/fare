@@ -1,7 +1,8 @@
 <script lang="ts" setup>
-import { isNumber, set } from '@vueuse/core'
+import {  set } from '@vueuse/core'
 import { format } from 'date-fns'
 import type { InputHTMLAttributes } from 'vue'
+const isNumber = (value: any): boolean => !isNaN(value) && typeof value === 'number';
 
 type Props = {
   modelValue?: string | number | null
